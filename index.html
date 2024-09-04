@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first assignment</title>
+        <style>
+           p.title{
+            font-weight: bold;
+            font-size: small;
+            font-style: oblique;
+           }
+           p.content{
+            font-size: xx-small;
+            font-weight: bold;
+           }
+           
+    
+        </style>
+    
+    </head>
+    <body>
+        <div class="container">
+            <h3>Basic html and css code sample</h3>
+            <p>Hello there welcome to my first learning website. I am EddahMary, a junior software developer. I enjoy watching movies and documentaries and also hanging out with friends.</p>
+        <p>I am having fun learning html.</p>
+        </div>
+        <div class="content">
+            <p>Below is an image</p>
+            <img width="200" height="160"
+            src="./images/Passport.jpg" alt="Eddah talking in eng">
+        
+        </div>
+
+        <div class="content">
+            <p><i>Passport</i></p>
+        </div>
+
+        <div>
+            <p>Below is a video</p>
+            <video width="400" height="200" controls>
+                <source src="./video.mp4" type="video/mp4"
+                />
+        </div>
+        <div>
+        <!--Implementing forms-->
+        <form>
+            <h3>Radio Button</h3>
+            <P><b>Select your best contact method</b></P>
+            <label for="sms">
+                <input type="radio" id="sms" name="contact method" value="sms" checked>
+                sms
+            </label>
+            <br>
+            <label for="phone call">
+                <input type="radio" id="phone call" name="contact method" value="phone call">
+                phone call
+            </label>
+            <br>
+            <label for="smoke signals">
+                <input type="radio" id="smoke signals" name="contact method" value="smoke signals">
+                smoke signals
+            </label><br><br>
+            <input type="submit" value="submit">
+
+</form>
+</div>
+<div>
+    <form>
+        <h3>Checkbox</h3>
+        <p><b>Select your best subjects</b></p>
+        <label for="Maths">
+            <input type="checkbox" id="Maths" name="subject" value="Maths">
+            Maths
+        </label><br>
+        <label for="Geography">
+            <input type="checkbox" id="Geography" name="subject" value="Geography">
+            Geography
+        </label><br>
+        <label for="Physics">
+            <input type="checkbox" id="Physics" name="subject" value="Physics">
+            Physics
+        </label><br>
+        <label for="Aviation">
+            <input type="checkbox" id="Aviation" name="subject" value="Aviation">
+            Aviation
+        </label><br>
+        <label for="Drawing">
+            <input type="checkbox" id="Drawing" name="subject" value="Drawing">
+            Drawing
+        </label><br><br>
+        <input type="submit" value="submit">
+
+    </form>
+</div>
+<div>
+    <form>
+        <h3>Textarea</h3>
+        <p><b>What are your interests,passions and ambitions?</b></p>
+        <label for="Interests">Enter your interests below:</label><br><br>
+        <textarea id="interests" name="interests" rows="5" cols="50" placeholder="Write your interests here"></textarea>
+        <br><br>
+        <label for="Ambitions">Enter your ambitions below:</label><br><br>
+        <textarea id="ambitions" name="ambitions" rows="5" cols="50" placeholder="Write your ambitions here"></textarea>
+        <br><br>
+        <label for="Hobbies">Enter your passions below:</label><br><br>
+        <textarea id="hobbies" name="hobbies" rows="5" cols="50" placeholder="Write your hobbies here"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+        
+    </form>
+</div>
+    </body>
+</html>
